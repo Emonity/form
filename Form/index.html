@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="form">
+            <form name = "form" action="#" id="form" class="form__body">
+
+                <!-- heading -->
+
+                <h1 class="form__title">Title form</h1>
+
+                <!-- Data about people -->
+
+                <div class="form__item">
+                    <input placeholder = "First Name *" id="formName" type="text" name="name" class="form__input">
+                </div>
+
+                <div class="form__item">
+                    <input placeholder="Last Name *" id="formLastName" type="text" name="last__name"
+                        class="form__input">
+                </div>
+
+                <div class="form__item">
+                    <input placeholder="user@gmail.com *" id="formEmail" type="text" name="email" class="form__input">
+                </div>
+
+
+                <!-- Selector -->
+
+                <div class="form__item">
+                    <div class="form__label">Product type *
+                        <select name="count" class="select">
+                            <option value="first" selected>1</option>
+                            <option value="second">2</option>
+                            <option value="three">3</option>
+                        </select>
+                    </div>
+
+                    <!-- Switch -->
+
+                    <div class="form__item">
+                        <div class="form__label">Additinal feature for 100$
+                            <label class="switch">
+                                <input type="checkbox">
+                                <span class="slider round"></span>
+                            </label>
+                        </div>
+
+                        <div class="form__item">
+                            <div class="form__label">Additinal feature for 200$
+                                <label class="switch">
+                                    <input type="checkbox">
+                                    <span class="slider round"></span>
+                                </label>
+                            </div>
+                        </div>
+
+                        <!-- Text message -->
+
+                        <div class="form__item">
+                            <label for="formMessage" class="form__label">Сообщение</label>
+                            <textarea name="message" id="formMessage" class="form__input"></textarea>
+                        </div>
+
+                        <!-- Total price -->
+
+                        <div class = "total__price">Total price
+                            <th id = "total"></th>
+                        </div>
+
+                        <!-- Submit -->
+
+                        <button type="Submit" class="form__button">Send</button>
+
+                        <script src="assets/js/script.js"></script>
+            </form>
+        </div>
+    </div>
+
+</body>
+
+</html>
